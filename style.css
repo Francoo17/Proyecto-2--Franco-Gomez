@@ -1,0 +1,211 @@
+                                                                             /* Css inicio */
+body{
+    background-color: black;
+}
+
+.h1-inicio{
+    margin: 10px;
+    font-size: 50px;
+    font-style: oblique;
+    color: white;
+    animation-name: nav;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in;
+    transition: all, 0.4 ease;
+}
+
+@keyframes nav{
+    0%{
+    margin: 10px;
+    font-size: 50px;
+    font-style: oblique;
+    color: white;
+    }
+
+    100%{
+    margin: 10px;
+    font-size: 50px;
+    font-style: oblique;
+    color: red
+    }
+}
+
+
+
+.box{
+    padding-top: 40px;
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    transition: 0.4s ease;
+    font-size: 80px;
+    
+}
+
+.box:hover{
+    transform:scale(2);
+    transition: 0.4s ease;
+    
+    
+}
+
+
+.logo-nike{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/34/c3/57/34c357ee31431b6cd13fe1ebe1d47980.jpg);
+    background-size: cover;
+    
+}
+
+.logo-adidas{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOSO73I8uAvIln7DZF2KS3TduJGP6r6acTPtkvuZXfRDNC1_B3zjfOlE1S5_lht9WeaK4GWUg1HV68TOXsX11aByVDyrDvgsSTXjBMpmE2P5JHE_n_bbbk9w3DiVtz9o7ye-VzI0KlSeE9szPeG1kDza9HU6PuxeZ1dcpVLdmtA0jlKraCt7MXxZi2Nw/s1600/adidas%20new%20logo%20%281%29.gif);
+    background-size: cover;
+    
+}
+
+.logo-puma{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/43/2d/64/432d6423bcfcfba0ce9551069e998656.jpg);
+    background-size: cover;
+    
+    
+}
+
+.logo-fila{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/5b/50/e5/5b50e562f28fc54cc88c939e59597b73.jpg);
+    background-size: cover;
+    
+}
+
+.logo-under{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/96/38/49/9638499b85a4bfff985a1482c263734c.jpg);
+    background-size: cover;
+    
+}
+
+.logo-new{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/fe/2a/f9/fe2af9de7e148ddaab91512038e09c6f.jpg);
+    background-size: cover;
+    
+}
+
+.logo-conv{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/a5/09/ce/a509ce51391852498f89d9d5df633cbd.jpg);
+    background-size: cover;
+    
+}
+
+.logo-vans{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/a9/fa/37/a9fa3789bd9283a662ddee811f62b2c3.jpg);
+    background-size: cover;
+    
+}
+
+.logo-sal{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/32/d6/47/32d6478d5631a1d3f2977c6840ec970f.jpg);
+    background-size: cover;   
+}
+
+.logo-wilson{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(https://i.pinimg.com/564x/15/c5/69/15c569a206521b357775401dcd9917d5.jpg);
+    background-size: cover;      
+}
+
+.card{
+    margin: 70;
+    display: inline-block;
+}
+
+
+
+.div-footer{
+    width: 30px;
+    height: 30px;
+    background-color:aliceblue;
+    display: inline-block;
+    margin: 50;
+    align-content: center;
+}
+
+
+                                                                /* Css Remeras */
+
+
+#carouselExampleIndicators{
+    padding-top: 100px;
+}                                
+
+
+
+
+
